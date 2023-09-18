@@ -49,8 +49,8 @@ app.use("/api/tweet", tweetRoutes);
 app.use("/api/user", userRoutes);
 
 // Serve static files from the "uploads" directory
-app.use("/uploads", express.static("uploads"));
-app.use("/profiles", express.static("profiles"));
+// app.use("/uploads", express.static("uploads"));
+// app.use("/profiles", express.static("profiles"));
 
 //rest api
 app.use("*", function (req, res) {
